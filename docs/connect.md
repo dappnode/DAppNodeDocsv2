@@ -44,7 +44,7 @@ Depending on your OS these are the instructions for installing our recommended O
 OpenVPN comes installed in Ubuntu recent versions, but to be sure, follow these steps. Run the terminal application:
 
 
-    <img src="https://github.com/dappnode/DAppNode/raw/master/doc/openvpn/ubuntu1.png">
+  <img src="https://github.com/dappnode/DAppNode/raw/master/doc/openvpn/ubuntu1.png">
 
 
 Install OpenVPN and plugin for NetworkManager:
@@ -58,31 +58,31 @@ Once the installation is complete, restart Network Manager by typing:
 Go to "Settings -> Network" and click to the "" button to add a VPN connection:
 
 
-    <img src="https://github.com/dappnode/DAppNode/raw/master/doc/openvpn/ubuntu2.png">
+  <img src="https://github.com/dappnode/DAppNode/raw/master/doc/openvpn/ubuntu2.png">
 
 
 Select "Import from file..."
 
  
-    <img src="https://github.com/dappnode/DAppNode/raw/master/doc/openvpn/ubuntu4.png">
+  <img src="https://github.com/dappnode/DAppNode/raw/master/doc/openvpn/ubuntu4.png">
 
 
 Browse the filesystem to select the downloaded file:
 
 
-    <img src="https://github.com/dappnode/DAppNode/raw/master/doc/openvpn/ubuntu3.png">
+  <img src="https://github.com/dappnode/DAppNode/raw/master/doc/openvpn/ubuntu3.png">
 
 
 Add the profile with the default settings:
 
 
-    <img src="https://github.com/dappnode/DAppNode/raw/master/doc/openvpn/ubuntu5.png">
+  <img src="https://github.com/dappnode/DAppNode/raw/master/doc/openvpn/ubuntu5.png">
 
 
 Now you can connect selecting the profile from the network tray icon:
 
 
-    <img src="https://github.com/dappnode/DAppNode/raw/master/doc/openvpn/ubuntu6.png">
+  <img src="https://github.com/dappnode/DAppNode/raw/master/doc/openvpn/ubuntu6.png">
 
 
 ## MacOS
@@ -90,7 +90,7 @@ Now you can connect selecting the profile from the network tray icon:
 The recommended OpenVPN client is Tunnelblick and you can download it [here](https://tunnelblick.net)
 
 
-    <img src="https://github.com/dappnode/DAppNode/raw/master/doc/openvpn/mac1.png">
+  <img src="https://github.com/dappnode/DAppNode/raw/master/doc/openvpn/mac1.png">
 
 
 Once you have followed the steps to install the tunnelblick client in your MAC, download the file from the URL given in the console to download the OVPN file with your credentials.
@@ -100,25 +100,25 @@ If you have already downloaded the config file before installing Tunnelblick, yo
 Select your preferred option about the users that will have access to the config.
 
 
-    <img src="https://github.com/dappnode/DAppNode/raw/master/doc/openvpn/mac4.png">
+  <img src="https://github.com/dappnode/DAppNode/raw/master/doc/openvpn/mac4.png">
 
 
 The system will probably ask for your admin password to install the VPN configuration, and it is done!
 
 
-    <img src="https://github.com/dappnode/DAppNode/raw/master/doc/openvpn/mac5.png">
+  <img src="https://github.com/dappnode/DAppNode/raw/master/doc/openvpn/mac5.png">
 
 
 Just open Tunnelblick in your MAC and click on Connect DAppNode.
 
 
-    <img src="https://github.com/dappnode/DAppNode/raw/master/doc/openvpn/mac6.png">
+  <img src="https://github.com/dappnode/DAppNode/raw/master/doc/openvpn/mac6.png">
 
 
 Once connected you can already access http://my.admin.dnp.dappnode.eth with your new OpenVPN connection!
 
 
-    <img src="https://github.com/dappnode/DAppNode/raw/master/doc/openvpn/mac8.png">
+  <img src="https://github.com/dappnode/DAppNode/raw/master/doc/openvpn/mac8.png">
 
 
 ## iOS
@@ -126,25 +126,25 @@ Once connected you can already access http://my.admin.dnp.dappnode.eth with your
 The recommended OpenVPN client is OpenVPN Connect and you can download it [here](https://itunes.apple.com/us/app/openvpn-connect/id590379981?mt=8)
 
 
-    <img width="300" src="https://github.com/dappnode/DAppNode/raw/master/doc/openvpn/ios1.png">
+  <img width="300" src="https://github.com/dappnode/DAppNode/raw/master/doc/openvpn/ios1.png">
 
 
 Once you have installed it you can just scan the QR code and hit download:
 
 
-    <img width="300" src="https://github.com/dappnode/DAppNode/raw/master/doc/openvpn/ios4.png">
+  <img width="300" src="https://github.com/dappnode/DAppNode/raw/master/doc/openvpn/ios4.png">
 
 
 and click in "Open in OpenVPN"
 
 
-    <img width="300" src="https://github.com/dappnode/DAppNode/raw/master/doc/openvpn/ios5.png">
+  <img width="300" src="https://github.com/dappnode/DAppNode/raw/master/doc/openvpn/ios5.png">
 
 
 Tap the add button and name your connection
 
 
-    <img width="300" src="https://github.com/dappnode/DAppNode/raw/master/doc/openvpn/ios7.png">
+  <img width="300" src="https://github.com/dappnode/DAppNode/raw/master/doc/openvpn/ios7.png">
 
 
 The phone will ask you permission for OpenVPN to add a configuration profile , please do.
@@ -152,13 +152,13 @@ The phone will ask you permission for OpenVPN to add a configuration profile , p
 And it is done, you can just connect to your new OpenVPN now
 
 
-    <img width="300" src="https://github.com/dappnode/DAppNode/raw/master/doc/openvpn/ios9.png">
+  <img width="300" src="https://github.com/dappnode/DAppNode/raw/master/doc/openvpn/ios9.png">
  
   
 After a few seconds, you will see in the OpenVPN interface that you are connected. You can either connect to your server through the OpenVPN app or directly from the phone´s "VPN" menu in "Settings"
 
 
-    <img width="300" src="https://github.com/dappnode/DAppNode/raw/master/doc/openvpn/ios10.png">
+  <img width="300" src="https://github.com/dappnode/DAppNode/raw/master/doc/openvpn/ios10.png">
 
 
 Once connected you can access http://my.admin.dnp.dappnode.eth with your new OpenVPN connection!
@@ -168,37 +168,37 @@ Once connected you can access http://my.admin.dnp.dappnode.eth with your new Ope
 Install **OpenVPN for Android** from [Google Play](https://play.google.com/store/apps/details?id=de.blinkt.openvpn) or [F-Droid](https://f-droid.org/en/packages/de.blinkt.openvpn/):
 
 
-    <img width="300" src="https://github.com/dappnode/DAppNode/raw/master/doc/openvpn/android1.jpg">
+  <img width="300" src="https://github.com/dappnode/DAppNode/raw/master/doc/openvpn/android1.jpg">
 
 
 Download the OpenVPN profile from the URL or scanned QR code:
 
 
-    <img width="300" src="https://github.com/dappnode/DAppNode/raw/master/doc/openvpn/android2.jpg">
+  <img width="300" src="https://github.com/dappnode/DAppNode/raw/master/doc/openvpn/android2.jpg">
 
 
 Open the downloaded file and import it to the application, then save it with your preferred name:
 
 
-    <img width="300" src="https://github.com/dappnode/DAppNode/raw/master/doc/openvpn/android3.jpg">
+  <img width="300" src="https://github.com/dappnode/DAppNode/raw/master/doc/openvpn/android3.jpg">
 
 
 Select the saved profile to connect to it:
 
 
-    <img width="300" src="https://github.com/dappnode/DAppNode/raw/master/doc/openvpn/android4.jpg">
+  <img width="300" src="https://github.com/dappnode/DAppNode/raw/master/doc/openvpn/android4.jpg">
 
 
 Accept the connection request:
 
 
-    <img width="300" src="https://github.com/dappnode/DAppNode/raw/master/doc/openvpn/android5.jpg">
+  <img width="300" src="https://github.com/dappnode/DAppNode/raw/master/doc/openvpn/android5.jpg">
 
 
 You should see a connection log similar to this:
 
 
-    <img width="300" src="https://github.com/dappnode/DAppNode/raw/master/doc/openvpn/android6.jpg">
+  <img width="300" src="https://github.com/dappnode/DAppNode/raw/master/doc/openvpn/android6.jpg">
 
 
 Once connected, you should be able to browse the DAppNode Admin page:
@@ -206,7 +206,7 @@ Once connected, you should be able to browse the DAppNode Admin page:
 [http://my.admin.dnp.dappnode.eth](http://my.admin.dnp.dappnode.eth)
 
 
-    <img width="300" src="https://github.com/dappnode/DAppNode/raw/master/doc/openvpn/android7.jpg">
+  <img width="300" src="https://github.com/dappnode/DAppNode/raw/master/doc/openvpn/android7.jpg">
 
 
 ## Windows
@@ -214,45 +214,45 @@ Once connected, you should be able to browse the DAppNode Admin page:
 Download the recommended client for [OpenVPN WINDOWS INSTALLER (NSIS)](https://openvpn.net/community-downloads/) and follow the steps to install it:
 
 
-    <img src="https://github.com/dappnode/DAppNode/raw/master/doc/openvpn/windows1.png">
+  <img src="https://github.com/dappnode/DAppNode/raw/master/doc/openvpn/windows1.png">
 
 
 
-    <img src="https://github.com/dappnode/DAppNode/raw/master/doc/openvpn/windows2.png">
+  <img src="https://github.com/dappnode/DAppNode/raw/master/doc/openvpn/windows2.png">
 
 
 
-    <img src="https://github.com/dappnode/DAppNode/raw/master/doc/openvpn/windows3.png">
+  <img src="https://github.com/dappnode/DAppNode/raw/master/doc/openvpn/windows3.png">
 
 
 Download the file from the provided link by the DAppNode administrator.
 
 
-    <img src="https://github.com/dappnode/DAppNode/raw/master/doc/openvpn/windows4.png">
+  <img src="https://github.com/dappnode/DAppNode/raw/master/doc/openvpn/windows4.png">
 
 
 Run the OpenVPN GUI program:
 
 
-    <img src="https://github.com/dappnode/DAppNode/raw/master/doc/openvpn/windows5.png">
+  <img src="https://github.com/dappnode/DAppNode/raw/master/doc/openvpn/windows5.png">
 
 
 Select "Import file..." from the tray bar icon (right click):
 
 
-    <img src="https://github.com/dappnode/DAppNode/raw/master/doc/openvpn/windows6.png">
+  <img src="https://github.com/dappnode/DAppNode/raw/master/doc/openvpn/windows6.png">
 
 
 Select the downloaded file:
 
 
-    <img src="https://github.com/dappnode/DAppNode/raw/master/doc/openvpn/windows7.png">
+  <img src="https://github.com/dappnode/DAppNode/raw/master/doc/openvpn/windows7.png">
 
 
 Finally, select "Connect" from the tray bar icon menu:
 
 
-    <img src="https://github.com/dappnode/DAppNode/raw/master/doc/openvpn/windows8.png">
+  <img src="https://github.com/dappnode/DAppNode/raw/master/doc/openvpn/windows8.png">
 
 
 ## Via WIFI
@@ -272,7 +272,7 @@ Please immediately change the name of the WIFI and the password by setting up th
 <!-- prettier-ignore-end -->
 
 
-    <img src="../images/wifipasswordssid.png">
+  <img src="../images/wifipasswordssid.png">
 
 
 Once you have entered the admin UI you can download your VPN credentials and create new ones under the "devices" tab

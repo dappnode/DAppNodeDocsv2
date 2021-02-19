@@ -54,14 +54,14 @@ Also, DAppNode is intended to run 24/7 so if you install it in a laptop or deskt
 Insert the USB into your Server and prepare to install a Debian distribution. You will have to make sure that your Server boots from the USB. If you succeed at booting up from your USB, you will be greeted with this screen or a similar one:
 
 
-  <img width="600" height="450" src="https://github.com/dappnode/DAppNodeDocs/blob/master/docs/images/VirtualBox_install.png?raw=true">
+<img width="600" height="450" src="https://github.com/dappnode/DAppNodeDocs/blob/master/docs/images/VirtualBox_install.png?raw=true">
 
 
 Follow the installation steps. Various screens will guide you through the process and you can follow the recommended setup below for a default installation:
 
 ### Recommended setup
 
-\*Note by following these instructions you will erase ALL your server's disk contents.
+Note by following these instructions you will erase ALL your server's disk contents.
 
 1. **Select a language** - Language: [English]
 2. **Select your location** - Country, territory or area: [United States or your own]
@@ -88,7 +88,7 @@ Resume DAppNode's installation
 If the installation succeeded, your system will reboot and you will have to log in with the user and password provided in the installation steps above. Then the following screen should appear:
 
 
-  <img width="800" height="600" src="https://github.com/dappnode/DAppNodeDocs/blob/master/docs/images/VirtualBox_console.png?raw=true">
+<img width="800" height="600" src="https://github.com/dappnode/DAppNodeDocs/blob/master/docs/images/VirtualBox_console.png?raw=true">
   
 
 

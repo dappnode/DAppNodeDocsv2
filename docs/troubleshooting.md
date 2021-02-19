@@ -154,7 +154,7 @@ Using Parity, it is also possible that the initial sync gets stuck at a given sn
 When using Parity, it might happen that when the snapshots finish syncin you are still very far away the current block height so it will take ages to finish the sync block by block. You can try to set up the Parity flag ```--warp-barrier (current block height -30.000 blocks)``` so the sync takes a higher number of snapshots what will decrease the number of spare blocks left to be synced individually.  Have a look at this example. 
 
 
-    <img width="1000"src="https://github.com/dappnode/DAppNodeDocs/blob/master/docs/images/warpbarrier.jpg?raw=true">
+  <img width="1000"src="https://github.com/dappnode/DAppNodeDocs/blob/master/docs/images/warpbarrier.jpg?raw=true">
 
 
 
@@ -199,7 +199,7 @@ If the package has been uploaded to IPFS but it still does not have enough propa
 
 
 
-    <img width="1000"src="https://github.com/dappnode/DAppNodeDocs/blob/master/docs/images/connectwithpeers.png?raw=true">
+  <img width="1000"src="https://github.com/dappnode/DAppNodeDocs/blob/master/docs/images/connectwithpeers.png?raw=true">
 
 
 ### I need to uninstall my DAppNode 
