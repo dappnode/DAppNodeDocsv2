@@ -1,8 +1,7 @@
-+---
-+id: versions
-+title: Versions History
-+sidebar_label: Dev Guide
-+---
+---
+id: versions
+title: Versions History
+---
 
 # Last Update 
 

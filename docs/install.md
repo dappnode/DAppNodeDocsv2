@@ -1,8 +1,7 @@
-+---
-+id: install
-+title: Install DAppNode
-+sidebar_label: Getting Started
-+---
+---
+id: install
+title: Install DAppNode
+---
 
 # Install DAppNode
 
@@ -19,7 +18,7 @@ While you can run DAppNode on a Virtual Private Server (VPS), we **highly encour
 
 You will need a dedicated machine to install it.
 
-We recommend having at least 4GB RAM (ideally 8GB+) and an SSD hard drive with at least 256GB (add capacity as you like, keep in mind that only Ethereum mainnet is 180GB at press time).
+We recommend having at least 4GB RAM (ideally 8GB) and an SSD hard drive with at least 256GB (add capacity as you like, keep in mind that only Ethereum mainnet is 180GB at press time).
 
 In the client side you just need an OpenVPN client installed in the device with which you want to connect to your DAppNode. See info on recommended clients and installation [here](https://github.com/dappnode/DAppNode/wiki/OpenVPN-Client-Guide)
 
@@ -29,7 +28,7 @@ Okay, so you’re ready to be a Nodler. Let us show you how to make that hardwar
 
 You can choose between two methods to install DAppNode:
 
-- **Install DAppNode from an ISO** - When you want to perform a clean installation, installing the base operating system and DAppNode. Installing from an ISO will wipe the machine data and install Debian + DAppNode
+- **Install DAppNode from an ISO** - When you want to perform a clean installation, installing the base operating system and DAppNode. Installing from an ISO will wipe the machine data and install Debian  DAppNode
 
 - **Installation using the installer script** - When you already have a machine with Debian installed and you just want to install DAppNode on it.
 
@@ -54,9 +53,9 @@ Also, DAppNode is intended to run 24/7 so if you install it in a laptop or deskt
 
 Insert the USB into your Server and prepare to install a Debian distribution. You will have to make sure that your Server boots from the USB. If you succeed at booting up from your USB, you will be greeted with this screen or a similar one:
 
-<p align="center">
+
   <img width="600" height="450" src="https://github.com/dappnode/DAppNodeDocs/blob/master/docs/images/VirtualBox_install.png?raw=true">
-</p>
+
 
 Follow the installation steps. Various screens will guide you through the process and you can follow the recommended setup below for a default installation:
 
@@ -88,10 +87,10 @@ Resume DAppNode's installation
 
 If the installation succeeded, your system will reboot and you will have to log in with the user and password provided in the installation steps above. Then the following screen should appear:
 
-<p align="center">
+
   <img width="800" height="600" src="https://github.com/dappnode/DAppNodeDocs/blob/master/docs/images/VirtualBox_console.png?raw=true">
   </a>
-</p>
+
 
 Now you can connect to your DAppNode by downloading the .ovpn file that you will be able to download from the link / QR show at the end of the installation by double click in it to open it with a compatible OpenVPN client. Here you have the [recommended ones and connection instructions](https://github.com/dappnode/DAppNode/wiki/OpenVPN-Client-Guide)
 
@@ -111,7 +110,7 @@ Even if the OpenVPN files are served via HTTP, they are served encrypted, and th
 
 Remember **_Your hardware, your coins, your privacy, your freedom._**
 
-**_We strongly recommend using 8GB+ of RAM and a 200GB+ SSD hard drive._**
+**_We strongly recommend using 8GB of RAM and a 200GB SSD hard drive._**
 
 ### Install DAppNode prerequisites
 

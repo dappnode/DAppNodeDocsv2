@@ -1,8 +1,7 @@
-+---
-+id: license
-+title: License
-+sidebar_label: Learn
-+---
+---
+id: license
+title: License
+---
 
 
 dappnode/DAppNode is licensed under the GNU General Public License v3.0

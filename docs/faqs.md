@@ -1,8 +1,7 @@
-+---
-+id: faqs
-+title: FAQs
-+sidebar_label: Learn
-+---
+---
+id: faqs
+title: FAQs
+---
 
 ## What are the hardware minimum requirements for DAppNode to work?
 
@@ -26,7 +25,7 @@ Centralization of blockchain networks and infrastructure is a huge problem for t
 
 ## Why can't I connect via VPN to my DAppNode?
 
-If the device with which you are trying to connect to your DAppNode is in the same local network as the DAppNode, you should have a router that supports NAT Loopback or edit the VPN configuration and change the Server IP to the internal IP of your DAppNode. You can easily know if your router has NAT loopback enabled without accessing the router admin UI by opening your terminal and type ping + the IP of your DAppNode (where your VPN connection profile points to).
+If the device with which you are trying to connect to your DAppNode is in the same local network as the DAppNode, you should have a router that supports NAT Loopback or edit the VPN configuration and change the Server IP to the internal IP of your DAppNode. You can easily know if your router has NAT loopback enabled without accessing the router admin UI by opening your terminal and type ping  the IP of your DAppNode (where your VPN connection profile points to).
 If the ping works without getting stuck your router has NAT Loopback so if you can't connect to the VPN the cause is not being in the same network. Check that UDP is activated in your router to allow the opening of the needed ports for VPN access.
 
 More information about these issues in the "VPN Connection issues" section.

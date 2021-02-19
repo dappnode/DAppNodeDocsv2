@@ -1,19 +1,19 @@
 module.exports = {
-  title: 'My Site',
-  tagline: 'The tagline of my site',
+  title: 'DAppNode Documentation',
+  tagline: 'DAppNode connects the decentralized internet by allowing a user to conveniently host P2P clients',
   url: 'https://your-docusaurus-test-site.com',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
-  organizationName: 'facebook', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
+  organizationName: 'dappnode', // Usually your GitHub org/user name.
+  projectName: 'DAppNodeDocsv2', // Usually your repo name.
   themeConfig: {
     navbar: {
-      title: 'My Site',
+      title: 'DAppNode Documentation',
       logo: {
-        alt: 'My Site Logo',
-        src: 'img/logo.svg',
+        alt: 'DAppNode Documentation',
+        src: 'img/logo.png',
       },
       items: [
         {
@@ -50,16 +50,16 @@ module.exports = {
           title: 'Community',
           items: [
             {
-              label: 'Stack Overflow',
-              href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+              label: 'Discourse',
+              href: 'https://discourse.dappnode.io/',
             },
             {
               label: 'Discord',
-              href: 'https://discordapp.com/invite/docusaurus',
+              href: 'https://discord.gg/c28an8dA5k',
             },
             {
               label: 'Twitter',
-              href: 'https://twitter.com/docusaurus',
+              href: 'https://twitter.com/DAppNode',
             },
           ],
         },
@@ -72,12 +72,16 @@ module.exports = {
             },
             {
               label: 'GitHub',
-              href: 'https://github.com/facebook/docusaurus',
+              href: 'https://github.com/dappnode',
+            },
+            {
+              label: 'DAppNode Shop',
+              href: 'https://shop.dappnode.io/',
             },
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()} DAppNode | Decentralized P2P Networking | Built with Docusaurus.`,
     },
   },
   presets: [
@@ -97,8 +101,7 @@ module.exports = {
             'https://github.com/facebook/docusaurus/edit/master/website/blog/',
         },
         theme: {
-          customCss: require.resolve('./src/css/custom.css'),
-        },
+          customCss: require.resolve('./src/css/custom.css'),        },
       },
     ],
   ],

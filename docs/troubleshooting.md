@@ -1,8 +1,7 @@
-+---
-+id: troubleshooting
-+title: Troubleshooting
-+sidebar_label: Learn
-+---
+---
+id: troubleshooting
+title: Troubleshooting
+---
 
 ## Recover UI password
 
@@ -76,7 +75,7 @@ As with OpenVPN the config file is automated you should not have any problem to 
 
 You are in the same local area network that the DAppNode you want to connect to, and your router does not support or does not have enabled NAT LOOPBACK, so there are IP conflicts that prevent you from connecting.
 
-To solve it you have to figure out if your router is doing NAT LOOPBACK and activate it if it is not the case . You can easily know it by opening the terminal and typing ping + DynDNS domain is given at the end of the installation as server address. If the ping is successful (100% packets are transmitted with no packet loss) your router is doing NAT LOOPBACK, if it is not solving you have to either enter the admin panel of your router and look for that option and activate it, or edit the server address in the VPN profile and substitute the domain given by the internal IP of the DAppNode server (usually starting with 192.168……..).
+To solve it you have to figure out if your router is doing NAT LOOPBACK and activate it if it is not the case . You can easily know it by opening the terminal and typing ping  DynDNS domain is given at the end of the installation as server address. If the ping is successful (100% packets are transmitted with no packet loss) your router is doing NAT LOOPBACK, if it is not solving you have to either enter the admin panel of your router and look for that option and activate it, or edit the server address in the VPN profile and substitute the domain given by the internal IP of the DAppNode server (usually starting with 192.168……..).
 
 This will allow you to connect from the same local network but not from outside, to connect to your DAppNode from outside your network you will need to download another VPN profile pointing to the DynDNS address (exactly as it is downloaded)
 
@@ -154,9 +153,9 @@ Using Parity, it is also possible that the initial sync gets stuck at a given sn
 
 When using Parity, it might happen that when the snapshots finish syncin you are still very far away the current block height so it will take ages to finish the sync block by block. You can try to set up the Parity flag ```--warp-barrier (current block height -30.000 blocks)``` so the sync takes a higher number of snapshots what will decrease the number of spare blocks left to be synced individually.  Have a look at this example. 
 
-<p align="center">
+
     <img width="1000"src="https://github.com/dappnode/DAppNodeDocs/blob/master/docs/images/warpbarrier.jpg?raw=true">
-</p>
+
 
 
 ### I can't access the ADMIN UI
@@ -199,9 +198,9 @@ Execute this command in your DAppNode terminal, this will update the core packag
 If the package has been uploaded to IPFS but it still does not have enough propagation in the network,it might be hard to install that package unless you are connected to an IPFS node that that allows direct or routed access to that package. As you can automatically peer-connect two IPFS nodes hosted in a DAppNode you can ask a DAppNode peer that already has installed hat package to connect your nodes. To do so, in the IPFS packages screen Go to Connect with peers and send the link to your peer. 
 
 
-<p align="center">
+
     <img width="1000"src="https://github.com/dappnode/DAppNodeDocs/blob/master/docs/images/connectwithpeers.png?raw=true">
-</p>
+
 
 ### I need to uninstall my DAppNode 
 

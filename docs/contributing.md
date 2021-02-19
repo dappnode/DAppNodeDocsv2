@@ -1,8 +1,7 @@
-+---
-+id: contributing
-+title: Contributing
-+sidebar_label: Dev Guide
-+---
+---
+id: contributing
+title: Contributing
+---
 
 Help is always appreciated!
 

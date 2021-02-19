@@ -1,3 +1,8 @@
+---
+id: index
+title: Welcome
+---
+
 
 # Welcome to the DAppNode documentation
 

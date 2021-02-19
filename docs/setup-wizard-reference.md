@@ -1,8 +1,7 @@
-+---
-+id: setup-wizard-reference
-+title: Setup Wizard Reference
-+sidebar_label: Dev Guide
-+---
+---
+id: setup-wizard-reference
+title: Setup Wizard Reference
+---
 
 The setup wizard for DAppNode packages helps automate the package customization and improve its user experience. You can allow users to conveniently edit environment variables, port mappings, and upload files while interacting with a simple web form, right before installing the package.
 
@@ -18,7 +17,7 @@ To add this functionality, create a file `setup-wizard.yml` in the root of your 
   ├── avatar-my-package.png
   ├── dappnode_package.json
   ├── docker-compose.yml
-+ └── setup-wizard.yml
+ └── setup-wizard.yml
 ```
 
 ## Example

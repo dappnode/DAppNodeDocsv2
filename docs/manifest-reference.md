@@ -1,8 +1,7 @@
-+---
-+id: architecture
-+title: Architecture
-+sidebar_label: Dev Guide
-+---
+---
+id: manifest-reference
+title: Manifest Reference
+---
 
 # DAppNode Package Manifest Reference
 
@@ -136,7 +135,7 @@ DAppNode Package semantic version (semver).
 All instances must conform to this regular expression
 
 ```regex
-^((([0-9]+).([0-9]+).([0-9]+)))$
+^((([0-9]).([0-9]).([0-9])))$
 ```
 
 - test example:
@@ -207,7 +206,7 @@ encouraged that you optimize the .png before uploading it to minimize its size.
 All instances must conform to this regular expression
 
 ```regex
-^/(ipfs|bzz)/\w+$
+^/(ipfs|bzz)/\w$
 ```
 
 - test example:
@@ -324,7 +323,7 @@ Minimum DAppNode version that includes all the features necessary to run this DA
 All instances must conform to this regular expression
 
 ```regex
-^((([0-9]+).([0-9]+).([0-9]+)))$
+^((([0-9]).([0-9]).([0-9])))$
 ```
 
 - test example:

@@ -1,8 +1,7 @@
-+---
-+id: migration-guide
-+title: Migration Guide
-+sidebar_label: User Guide
-+---
+---
+id: migration-guide
+title: Migration Guide
+---
 
 # DAppNode Migration guide to v0.2.0
 

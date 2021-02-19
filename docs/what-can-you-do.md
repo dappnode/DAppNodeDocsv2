@@ -1,8 +1,7 @@
-+---
-+id: what-can-you-do
-+title: Uses Cases
-+sidebar_label: Getting Started
-+---
+---
+id: what-can-you-do
+title: Uses Cases
+---
 
 # What can you do with your DAppNode?
 
@@ -35,9 +34,9 @@ Now you can do things like for example:
 /ip4/172.33.1.5/tcp/5001
 ```
 
-<p align="center">
+
     <img width="1000"src="https://github.com/Shelpin/DAppNode/raw/master/doc/ipfsinterface.jpg">
-</p>
+
 
 ## VPN connection
 
@@ -58,23 +57,23 @@ You can easily switch between them in the ethchain package screen, but please no
 
 To switch the client just go to “ Packages / System Packages / Ethchain / Choose client” and select your preferred option
 
-<p align="center">
+
     <img width="1000"src="https://github.com/dappnode/DAppNodeDocs/blob/master/docs/images/chooseclient.jpg?raw=true">
-</p>
+
 
 When you switch clients you can choose between removing the chain volume of the client you are moving from, or keep it so you can easily switch back again without the need of syncing the whole chain again.
 
-<p align="center">
+
     <img width="1000"src="https://github.com/dappnode/DAppNodeDocs/blob/master/docs/images/changingclient.jpg?raw=true">
-</p>
+
 
 You can still set parameters for both chains in the extra opt fields of each client. Use Extra Opts to define variables to be applied in Parity and Extra opts GETH to do the same with the official EF client, and hit "Update environment variables"
 
 More info on env vars for Parity client [here](https://wiki.parity.io/Configuring-Parity-Ethereum) and for Geth [here](https://github.com/ethereum/go-ethereum/wiki/Command-Line-Options)
 
- <p align="center">
+
     <img width="1000"src="https://github.com/dappnode/DAppNodeDocs/blob/master/docs/images/extraoptsgeth.jpg?raw=true">
-</p>
+
 
 ## MyCrypto
 
@@ -104,9 +103,9 @@ First, you must be connected to your DAppNode’s VPN:
 
 To edit the name showed at the upper right corner just hit advanced options under the URL of the Custom RPC and include DAppNode (or the name you want to have) in the field alias.
 
-<p align="center">
+
     <img width="1000"src="https://github.com/dappnode/DAppNodeDocs/blob/master/docs/images/customnamemetamask.png?raw=true">
-</p>
+
 
 ## IPFS
 
@@ -118,15 +117,15 @@ We have updated our IPFS package (v.0.1.6), and one of the features is to provid
 
 `/ip4/172.33.1.5/tcp/5001`
 
-<p align="center">
+
     <img width="1000"src="https://github.com/Shelpin/DAppNode/raw/master/doc/ipfsinterface.jpg">
-</p>
+
 
 If you want to automatically peer-connect two IPFS nodes, go to Connect with peers and send the link to your peer. Use this resource to mitigate slow IPFS propagation
 
-<p align="center">
+
     <img width="1000"src="https://github.com/dappnode/DAppNodeDocs/blob/master/docs/images/connectwithpeers.png?raw=true">
-</p>
+
 
 If you want to know a bit more on IPFS here you have a [useful link](https://medium.com/coinmonks/a-hands-on-introduction-to-ipfs-ee65b594937)
 
@@ -228,7 +227,7 @@ Then comment `EthTools` on line 89, to avoid min-api.cryptocompare.com calls
 
 /_
 EthTools.ticker.start({
-extraParams: typeof mist !== 'undefined' ? 'Mist-' + mist.version : '',currencies: ['BTC', 'USD', 'EUR', 'BRL', 'GBP'] });
+extraParams: typeof mist !== 'undefined' ? 'Mist-'  mist.version : '',currencies: ['BTC', 'USD', 'EUR', 'BRL', 'GBP'] });
 _/
 
 `meteor-dapp-wallet/app/client/routes.js`
@@ -304,12 +303,12 @@ If you are the owner of an ENS domain you can make this point to the hash you wa
 
    **value:**/ipfs/QmZQ3GzqXHCRM6uccP6TcZdPGPSyqJXyhwLETD2T2o8m73
 
-<p align="center">
+
     <img width="600"src="https://github.com/Shelpin/DAppNode/raw/master/doc/enstransaction.jpg">
-</p>
+
 
 With these parameters we make the transaction in ethereum mainet and once it’s mined the web will be accessible from that domain!
 
-<p align="center">
+
     <img width="600"src="https://github.com/Shelpin/DAppNode/raw/master/doc/walletdappnodeeth.png">
-</p>
+

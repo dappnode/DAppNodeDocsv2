@@ -1,8 +1,7 @@
-+---
-+id: user-guide
-+title: Admin UI
-+sidebar_label: User Guide
-+---
+---
+id: user-guide
+title: Admin UI
+---
 
 ## Welcome to DAppNode – The Admin UI
 
@@ -34,9 +33,9 @@ By clicking “Dashboard” you can have a fast look to your server state, if yo
 
 8. Autodiagnose tool / Report Issue
 
-<p align="center">
-    <img width="1000"src="https://github.com/dappnode/DAppNodeDocs/blob/master/docs/images/dashboard0.2.5.png?raw=true">
-</p>
+
+<img width="1000"src="https://github.com/dappnode/DAppNodeDocs/blob/master/docs/images/dashboard0.2.5.png?raw=true">
+
 
 <!-- prettier-ignore-start -->
 !!! info
@@ -60,9 +59,9 @@ If there is a device using the same VPN credentials, you will be able to connect
 
 You also have the ability to give a device admin privileges so the ADMIN UI can be used by them. If any device without admin credentials tries to access the ADMIN UI, it will not work.
 
-<p align="center">
-    <img width="1000"src="https://github.com/dappnode/DAppNodeDocs/blob/master/docs/images/devices.png?raw=true">
-</p>
+
+<img width="1000"src="https://github.com/dappnode/DAppNodeDocs/blob/master/docs/images/devices.png?raw=true">
+
 
 
 <!-- prettier-ignore-start -->
@@ -97,9 +96,9 @@ You can also select your own customized path for the installation of the package
 
 Last, if you are an advanced user you can also chooose the ports to be used by the package by editing the "ports" section and upload and download files to any package using the File Manager.
 
-<p align="center">
-    <img width="1000"src="https://github.com/dappnode/DAppNodeDocs/blob/master/docs/images/newinstaller.png?raw=true">
-</p>
+
+<img width="1000"src="https://github.com/dappnode/DAppNodeDocs/blob/master/docs/images/newinstaller.png?raw=true">
+
 
 Here you have a brief description of some of the available packages:
 
@@ -159,9 +158,9 @@ Here you can see the packages you have installed and see their info, manage them
 
 #### Info
 
-<p align="center">
-    <img width="1000"src="https://github.com/dappnode/DAppNodeDocs/blob/master/docs/images/packageinfo.png?raw=true">
-</p>
+
+<img width="1000"src="https://github.com/dappnode/DAppNodeDocs/blob/master/docs/images/packageinfo.png?raw=true">
+
 
 In this screen you will find the relevant info about the package:
 
@@ -176,47 +175,46 @@ In this screen you will find the relevant info about the package:
 These are the main options you can execute on your installed packages:
 
 
-<p align="center">
-    <img width="1000"src="https://github.com/dappnode/DAppNodeDocs/blob/master/docs/images/packagecontrol.png?raw=true">
-</p>
+
+<img width="1000"src="https://github.com/dappnode/DAppNodeDocs/blob/master/docs/images/packagecontrol.png?raw=true">
+
 
 Note that when removing a non core package you have the following options :
 
 - Remove only the container: This will only remove the package but data will be kept, so if you insatll the package again in the same path,the container will mount the volume again and you won't have to sync the whole package again.
 
-- Remove Package + volume : This will erase the container and the associated data. If you want to reinstall, the volume will have to sync again
+- Remove Package  volume : This will erase the container and the associated data. If you want to reinstall, the volume will have to sync again
 
 #### Config
 
 In this screen you can set up the different existing options and configs for each package.
 
-<p align="center">
-    <img width="1000"src="https://github.com/dappnode/DAppNodeDocs/blob/master/docs/images/packageconfig.png?raw=true">
-</p>
+
+<img width="1000"src="https://github.com/dappnode/DAppNodeDocs/blob/master/docs/images/packageconfig.png?raw=true">
+
 
 #### Ports
 
 With this feature you can add customised port mappings to specific packages, select the host port and the container port and hit "Update port mappings" . Please do not change these settings unless you really know what you are doing, be cautious out there. 
 
-<p align="center">
-    <img width="1000"src="https://github.com/dappnode/DAppNodeDocs/blob/master/docs/images/addports.png?raw=true">
-</p>
+
+<img width="1000"src="https://github.com/dappnode/DAppNodeDocs/blob/master/docs/images/addports.png?raw=true">
+
 
 #### Logs 
 
 This tab will show you the package logs in real time. 
 
-<p align="center">
-    <img width="1000"src="https://github.com/dappnode/DAppNodeDocs/blob/master/docs/images/packagelogs.png?raw=true">
-</p>
+
+<img width="1000"src="https://github.com/dappnode/DAppNodeDocs/blob/master/docs/images/packagelogs.png?raw=true">
+
 
 #### Backup and restore
 
 Some DAppNode packages as Lightning Network and Raiden contain private keys so we have added a simple way to backup and restore the sensitive info stored in your DAppNode,as usual,with a couple of clicks. In the packages that hold private keys in their volumes you will find a backup tab. Let us see how it works looking at the Lightning Network Package.   
 
-<p align="center">
-    <img width="1000"src="https://github.com/dappnode/DAppNode/blob/master/doc/backupscreen.jpg?raw=true">
-</p>
+
+<img width="1000"src="https://github.com/dappnode/DAppNode/blob/master/doc/backupscreen.jpg?raw=true">
 
 ##### Backup
 
@@ -229,7 +227,7 @@ If anything happens with your LN node and you have your backup you can always re
 
 Just hit that sweet restore button, select your tar.xz backup file and confirm. 
 
-<p align="center"><a href="#"><img width="600" title="Backup" src='https://github.com/dappnode/DAppNode/blob/master/doc/restorescreen.jpg?raw=true' /></a></p>
+<img width="600" title="Backup" src='https://github.com/dappnode/DAppNode/blob/master/doc/restorescreen.jpg?raw=true' />
 
 After the backup file is uploaded your LN node is restored. 
 
@@ -237,27 +235,27 @@ After the backup file is uploaded your LN node is restored.
 
 This option will allow you to upload and download files from a package container. For example you will use it to upload a keystore file to Raiden package, and to restore or to do a backup from your account. 
 
-<p align="center">
-    <img width="1000"src="https://github.com/dappnode/DAppNodeDocs/blob/master/docs/images/filemanager.png?raw=true">
-</p>
+
+<img width="1000"src="https://github.com/dappnode/DAppNodeDocs/blob/master/docs/images/filemanager.png?raw=true">
+
 
 
 ### System Packages
 
 Here you can access the packages that are part of the DAppNode core and manage them, see their logs, restart them or delete its associated data to be restored, with the same navigation structure as the installed packages
 
-<p align="center">
-    <img width="1000"src="https://github.com/dappnode/DAppNodeDocs/blob/master/docs/images/systempackages.png?raw=true">
-</p>
+
+<img width="1000"src="https://github.com/dappnode/DAppNodeDocs/blob/master/docs/images/systempackages.png?raw=true">
+
 
 
 ## System
 
 This area is used to configure and manage your system with different options that will be progressively released.
 
-<p align="center">
-    <img width="1000"src="https://github.com/dappnode/DAppNodeDocs/blob/master/docs/images/systemtab.png?raw=true">
-</p> 
+
+<img width="1000"src="https://github.com/dappnode/DAppNodeDocs/blob/master/docs/images/systemtab.png?raw=true">
+ 
 
 ### Auto-updates
 
@@ -265,18 +263,18 @@ You can now choose if you want your packages to be  automatically updated by ena
 
 This feature is valid for non major updates, in which an admin intervention will always be needed.
 
-<p align="center">
-    <img width="1000"src="https://github.com/dappnode/DAppNodeDocs/blob/master/docs/images/autoupdates.png?raw=true">
-</p>
+
+<img width="1000"src="https://github.com/dappnode/DAppNodeDocs/blob/master/docs/images/autoupdates.png?raw=true">
+
 
 
 ### Static IP
 
 If you have a Static IP you can set it up here so the future VPN credentials generated point to that fixed ip, just include your Static IP in the box and hit “Set”, you can always disable it.
 
-<p align="center">
-    <img width="1000"src="https://github.com/dappnode/DAppNodeDocs/blob/master/docs/images/systemip.png?raw=true">
-</p>
+
+<img width="1000"src="https://github.com/dappnode/DAppNodeDocs/blob/master/docs/images/systemip.png?raw=true">
+
 
 
 
@@ -284,9 +282,9 @@ If you have a Static IP you can set it up here so the future VPN credentials gen
 
 If you need to reboot or shut down your server as a last resource, you can do it from this section. Please be aware that if you shut down your server you will only be able to switch it on again when you have psysical access to your DAppNode. 
 
-<p align="center">
-    <img width="1000"src="https://github.com/dappnode/DAppNodeDocs/blob/master/docs/images/powermanagement.png?raw=true">
-</p>
+
+<img width="1000"src="https://github.com/dappnode/DAppNodeDocs/blob/master/docs/images/powermanagement.png?raw=true">
+
 
 
 ## SDK
@@ -301,26 +299,26 @@ Once you have used the command line SDK and you have the DNP name, the version a
 
 In this screen you will have an overview of the functioning of your DAppNode with checks that will indicate you if there is any problem for the normal operation of your DAppNode. You can contribute to DAppNode´s improvement by opening issues directly from the ADMIN UI. 
 
-<p align="center">
-    <img width="1000"src="https://github.com/dappnode/DAppNodeDocs/blob/master/docs/images/autodiagnose.png?raw=true">
-</p>
+
+<img width="1000"src="https://github.com/dappnode/DAppNodeDocs/blob/master/docs/images/autodiagnose.png?raw=true">
+
 
 ### Report
 
 When you click the "Report" tab you will chave the option of sending the issue with a prepopulated form that will be automatically loaded in the report screen. You can also choose to open the issue without any data.
 
-<p align="center">
-    <img width="1000"src="https://github.com/dappnode/DAppNodeDocs/blob/master/docs/images/report.png?raw=true">
-</p>
+
+<img width="1000"src="https://github.com/dappnode/DAppNodeDocs/blob/master/docs/images/report.png?raw=true">
+
 
 ### Activity
 
 This tab allows easy access to the DAppNode logs in order to debug errors. We work hard to make this tab irrelevant to you, but for the time being, if you are experiencing any issue, these logs will help our support team help you identify and fix any problem. You will also find a button to download a log report file.
 
 
-<p align="center">
-    <img width="1000"src="https://github.com/dappnode/DAppNodeDocs/blob/master/docs/images/activity.png?raw=true">
-</p>
+
+<img width="1000"src="https://github.com/dappnode/DAppNodeDocs/blob/master/docs/images/activity.png?raw=true">
+
 
 ## Notifications
 
