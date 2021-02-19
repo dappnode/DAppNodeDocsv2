@@ -1,3 +1,9 @@
++---
++id: migration-guide
++title: Migration Guide
++sidebar_label: User Guide
++---
+
 # DAppNode Migration guide to v0.2.0
 
 DAppNode is continuously evolving to enhance the performance, security, and privacy delivered to #nodlers. That is why we are releasing DAppNode v0.2.0, which includes a switch from L2TP to OpenVPN. This is a more convenient VPN scheme for DAppNode users.

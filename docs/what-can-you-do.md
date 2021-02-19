@@ -1,3 +1,9 @@
++---
++id: what-can-you-do
++title: Uses Cases
++sidebar_label: Getting Started
++---
+
 # What can you do with your DAppNode?
 
 Enter <https://my.admin.dnp.dappnode.eth> to access DAppNode's admin interface. From DAppNode 0.2.0 you can also just type http://my.dappnode . Did we ever say that we wanted to make everything so easy...?

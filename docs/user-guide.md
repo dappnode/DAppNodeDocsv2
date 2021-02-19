@@ -1,4 +1,8 @@
-# User Guide
++---
++id: user-guide
++title: Admin UI
++sidebar_label: User Guide
++---
 
 ## Welcome to DAppNode – The Admin UI
 

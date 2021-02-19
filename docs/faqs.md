@@ -1,4 +1,8 @@
-# FAQ´s
++---
++id: faqs
++title: FAQs
++sidebar_label: Learn
++---
 
 ## What are the hardware minimum requirements for DAppNode to work?
 

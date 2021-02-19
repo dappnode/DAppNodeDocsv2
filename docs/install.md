@@ -1,3 +1,9 @@
++---
++id: install
++title: Install DAppNode
++sidebar_label: Getting Started
++---
+
 # Install DAppNode
 
 DAppNode is an Operating System. Our team has taken Debian and super-powered it to be your gateway to access the decentralized web.

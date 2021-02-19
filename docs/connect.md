@@ -1,3 +1,9 @@
++---
++id: connect
++title: Connect to DAppNode
++sidebar_label: Getting Started
++---
+
 # Connect to DAppNode's OpenVPN
 
 ## Via VPN

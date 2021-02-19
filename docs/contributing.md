@@ -1,4 +1,8 @@
-# Contributing
++---
++id: contributing
++title: Contributing
++sidebar_label: Dev Guide
++---
 
 Help is always appreciated!
 

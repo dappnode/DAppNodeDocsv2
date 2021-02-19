@@ -1,4 +1,8 @@
-# Setup Wizard Reference
++---
++id: setup-wizard-reference
++title: Setup Wizard Reference
++sidebar_label: Dev Guide
++---
 
 The setup wizard for DAppNode packages helps automate the package customization and improve its user experience. You can allow users to conveniently edit environment variables, port mappings, and upload files while interacting with a simple web form, right before installing the package.
 

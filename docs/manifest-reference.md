@@ -1,3 +1,9 @@
++---
++id: architecture
++title: Architecture
++sidebar_label: Dev Guide
++---
+
 # DAppNode Package Manifest Reference
 
 The DAppNode Package manifest defines all the necessary information for a DAppNode to understand this package:

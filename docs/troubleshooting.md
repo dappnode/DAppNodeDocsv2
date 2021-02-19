@@ -1,4 +1,8 @@
-# Troubleshooting
++---
++id: troubleshooting
++title: Troubleshooting
++sidebar_label: Learn
++---
 
 ## Recover UI password
 
