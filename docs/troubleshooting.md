@@ -7,41 +7,39 @@ title: Troubleshooting
 
 The first time you access your DAppnode using the VPN, appear the next image:
 
-![Signin](./images/sign_in_image.png)
-
 Once you fill the fields and press the register button, DAppNode provides you with a recovery code. If you forget te DAppNode's Password you will be able to access using this token.
 
-![Recovery Token](./images/recovery_token.png)
+![Recovery Token](../static/img/recovery_token.png)
 
 You should save your token in a secure place like a password manager, paper, etc. In this case, we would save this:
 
-~~~
+```
 4LMB9w3l50Yljwr6bIgQ
-~~~
+```
 
 ### How to access to my DAppNode using the recovery token
 
 Firstly, we have to go to the login page of our DAppNode:
 
-![login](./images/login.png "")
+![login](../static/img//login.png)
 
 We should select the option "Forgot password?". It will appear a field where you can reset your password using the recovery token. In this example, we would use the token <code>4LMB9w3l50Yljwr6bIgQ</code>. You have to use your recovery token.
 
-![reset password with the recovery token](./images/reset_password_with_recovery_token.png "")
+![reset password with the recovery token](../static/img/reset_password_with_recovery_token.png)
 
 After confirming the recovery token, you can define an admin user in DAppNode and his password in the same way you did the first time you connect.
 
-![Defining the new password](./images/sign_in_image.png "")
+![Defining the new password](../static/img/sign_in_image.png)
 
 Remember using a password with the next properties:
 
-* Minimum 8 characters
-* At least one Cap letter
-* At least one number
+- Minimum 8 characters
+- At least one Cap letter
+- At least one number
 
 Once you filled the field and press the register button, dappnode will provide a recovery token.
 
-![Obtaining your recovery token](./images/recovery_token.png "")
+![Obtaining your recovery token](../static/img/recovery_token.png)
 
 We write down and save that token and we accept we have copied our recovery token. We log in with our new credentials and we have access to our DAppNode.
 
@@ -51,17 +49,17 @@ In case we have lost both the password and the recovery token, we need to access
 
 Once we are in our DAppNodeMachine, we type the next command which shows us the recovery token:
 
-~~~
+```
 cat /usr/src/dappnode/DNCORE/admin-recovery-token.txt ; echo
-~~~
+```
+
 The command does the next:
 
-* The admin-recover-token.txt is where the token is saved.
-* The <code>; echo</code> is used to make easier the read of the token.
+- The admin-recover-token.txt is where the token is saved.
+- The <code>; echo</code> is used to make easier the read of the token.
 
-After inserting the command we obtain the recovery token we have to use to reset our password. 
+After inserting the command we obtain the recovery token we have to use to reset our password.
 On the above section, How to access to my DAppNode using the recovery token you can reset your password with this recovery token.
-
 
 ## VPN Connection issues
 
@@ -75,7 +73,7 @@ As with OpenVPN the config file is automated you should not have any problem to 
 
 You are in the same local area network that the DAppNode you want to connect to, and your router does not support or does not have enabled NAT LOOPBACK, so there are IP conflicts that prevent you from connecting.
 
-To solve it you have to figure out if your router is doing NAT LOOPBACK and activate it if it is not the case . You can easily know it by opening the terminal and typing ping  DynDNS domain is given at the end of the installation as server address. If the ping is successful (100% packets are transmitted with no packet loss) your router is doing NAT LOOPBACK, if it is not solving you have to either enter the admin panel of your router and look for that option and activate it, or edit the server address in the VPN profile and substitute the domain given by the internal IP of the DAppNode server (usually starting with 192.168……..).
+To solve it you have to figure out if your router is doing NAT LOOPBACK and activate it if it is not the case . You can easily know it by opening the terminal and typing ping DynDNS domain is given at the end of the installation as server address. If the ping is successful (100% packets are transmitted with no packet loss) your router is doing NAT LOOPBACK, if it is not solving you have to either enter the admin panel of your router and look for that option and activate it, or edit the server address in the VPN profile and substitute the domain given by the internal IP of the DAppNode server (usually starting with 192.168……..).
 
 This will allow you to connect from the same local network but not from outside, to connect to your DAppNode from outside your network you will need to download another VPN profile pointing to the DynDNS address (exactly as it is downloaded)
 
@@ -151,12 +149,9 @@ If you are not on a 4 GB (ideally 8 GB) RAM configuration/ or your HD has not a 
 
 Using Parity, it is also possible that the initial sync gets stuck at a given snapshot of the first sync, if this happens try removing ETHCHAIN volume and let the sync start again. To do so you have to enter in Packages/System packages / Ethchain / Controls and hit remove volume, the existing synced snapshots will be erased and the sync will start again.
 
-When using Parity, it might happen that when the snapshots finish syncin you are still very far away the current block height so it will take ages to finish the sync block by block. You can try to set up the Parity flag ```--warp-barrier (current block height -30.000 blocks)``` so the sync takes a higher number of snapshots what will decrease the number of spare blocks left to be synced individually.  Have a look at this example. 
+When using Parity, it might happen that when the snapshots finish syncin you are still very far away the current block height so it will take ages to finish the sync block by block. You can try to set up the Parity flag `--warp-barrier (current block height -30.000 blocks)` so the sync takes a higher number of snapshots what will decrease the number of spare blocks left to be synced individually. Have a look at this example.
 
-
-  <img width="1000"src="https://github.com/dappnode/DAppNodeDocs/blob/master/docs/images/warpbarrier.jpg?raw=true">
-
-
+<img width="1000"src="https://github.com/dappnode/DAppNodeDocs/blob/master/docs/images/warpbarrier.jpg?raw=true">
 
 ### I can't access the ADMIN UI
 
@@ -195,19 +190,14 @@ Execute this command in your DAppNode terminal, this will update the core packag
 
 ### I can't install a package using its ENS or IPFS hash
 
-If the package has been uploaded to IPFS but it still does not have enough propagation in the network,it might be hard to install that package unless you are connected to an IPFS node that that allows direct or routed access to that package. As you can automatically peer-connect two IPFS nodes hosted in a DAppNode you can ask a DAppNode peer that already has installed hat package to connect your nodes. To do so, in the IPFS packages screen Go to Connect with peers and send the link to your peer. 
+If the package has been uploaded to IPFS but it still does not have enough propagation in the network,it might be hard to install that package unless you are connected to an IPFS node that that allows direct or routed access to that package. As you can automatically peer-connect two IPFS nodes hosted in a DAppNode you can ask a DAppNode peer that already has installed hat package to connect your nodes. To do so, in the IPFS packages screen Go to Connect with peers and send the link to your peer.
 
+<img width="1000"src="https://github.com/dappnode/DAppNodeDocs/blob/master/docs/images/connectwithpeers.png?raw=true">
 
-
-  <img width="1000"src="https://github.com/dappnode/DAppNodeDocs/blob/master/docs/images/connectwithpeers.png?raw=true">
-
-
-### I need to uninstall my DAppNode 
+### I need to uninstall my DAppNode
 
 If for whichever strange reason you have to uninstall your DAppNode server you can do so by typing the following command in the DAppNode server console
 
-```wget -qO - https://uninstaller.dappnode.io  |  sudo bash```
+`wget -qO - https://uninstaller.dappnode.io | sudo bash`
 
 This command will uninstall DAppNode components (but not docker et al.): ⚠️ BEWARE! It will also delete all volumes and stored data!⚠️
-
-
